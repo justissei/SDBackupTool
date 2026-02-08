@@ -27,6 +27,7 @@ chmod +x start.sh script/*.sh
 
 ## Catatan
 
-- Scan folder otomatis sesuai OS.  
+- Scan folder otomatis sesuai OS.
+- Termux masih belom bisa menggunakna tools ini.  
 - Setelah backup/restore selesai, kembali ke menu utama.  
 - Dependencies Linux: coreutils, findutils, gvfs, rsync.
