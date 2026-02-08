@@ -1,17 +1,6 @@
 # SD Card Backup Tool
 
-Backup dan restore folder di Linux & Termux.  
-Start lewat ./start.sh, backup/restore di folder script/.
-
----
-
-## Struktur
-
-start.sh
-script/
- ├─ linux_backup.sh
- └─ linux_restore.sh
-README.md
+Backup dan restore folder di Windows, Linux (semua distro) & Android (Termux).
 
 ---
 
@@ -28,6 +17,5 @@ chmod +x start.sh script/*.sh
 ## Catatan
 
 - Scan folder otomatis sesuai OS.
-- Termux masih belom bisa menggunakna tools ini.  
-- Setelah backup/restore selesai, kembali ke menu utama.  
+- Termux masih belom bisa menggunakna tools ini.
 - Dependencies Linux: coreutils, findutils, gvfs, rsync.
